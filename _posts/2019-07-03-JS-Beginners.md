@@ -149,7 +149,16 @@ function tên_function(biến1, biến2, biến_..., biến_n){
 }
 ```
 
+Anonymous function:  
+```js
 
+```
+
+Arrow function:  
+(Hàm rút gọn)
+```js
+
+```
 
 # Array
 Mảng 1 chiều:
