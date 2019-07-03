@@ -135,8 +135,12 @@ ___
 ![Minion](http://octodex.github.com/images/minion.png)
 
 ---
-Footnote:
 
+[github doc ↩](https://github.github.com/gfm/)
+
+---
+
+Footnote:
 [^1]: 1: Footnote number one yeah baby!
 
 [^2]: 2: A footnote you can link to - [click here!](#)
