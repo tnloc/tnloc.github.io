@@ -1,12 +1,11 @@
 ---
 layout: post
-title: ""
+title: "Ghi chú: Javascript for Beginner"
 comments: true
-description: " "
-keywords: " "
+description: "Ghi chú: Javascript for Beginner, JS căn bản"
+keywords: "JS"
 author: Tanloc
 ---
-
 [Video Source](https://youtu.be/PkZNo7MFNFg)  
 [Javascript Playground](https://scrimba.com/c/cy6KrVTZ)
 # Line comment
@@ -309,16 +308,16 @@ console.log(testStrict("7"));
 ```
 Tương tự, để so sánh không bằng, ta dùng ***!===*** hoặc ***!==***  
 Ngoài ra còn có các toán tử khác như:  
+
 |Kí hiệu    | ý nghĩa   |
 |---        |---        |
-|`<`          | bé hơn    |
-|`>`          | lớn hơn   |
-|`<=`  , `<==`  | bé hơn hoặc bằng  |
-|`>=`  , `>==`  | lớn hơn hoặc bằng |
-|`!`          | phủ định          |
-| `&&`        | và                |
-| `||`        | hoặc              |
-
+|<          | bé hơn    |
+|>          | lớn hơn   |
+|<=  , <==  | bé hơn hoặc bằng  |
+|>=  , >==  | lớn hơn hoặc bằng |
+|!          | phủ định          |
+|&&         | và                |
+|\|\|       | hoặc              |
 
 # Mệnh đề If - Else - Else if
 ```js
@@ -490,7 +489,15 @@ console.log(secondTree);
 ```
 
 # Vòng lặp For
+```js
 
+```
 # Vòng lặp While
+```js
 
-# 
+```
+
+# Vòng lặp Do While
+```js
+
+```

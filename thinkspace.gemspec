@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
 	spec.authors       = ["Heiswayi Nrird"]
 	spec.email         = ["heiswayi@nullableobject.com"]
 
-	spec.summary       = "A minimalist Jekyll theme"
+	spec.summary       = "Hello World!"
 	spec.homepage      = "https://github.com/heiswayi/thinkspace"
 	spec.license       = "MIT"
 
