@@ -1,0 +1,290 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title> Javascript for Beginner | NguyenTanLoc </title> <meta name="description" content=" Ghi chú: Javascript for Beginner, JS căn bản "> <meta name="keywords" content="JS"> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <!-- Social: Facebook / Open Graph --> <meta property="og:type" content="article"> <meta property="article:author" content="Tnloc"> <meta property="article:section" content=""> <meta property="article:tag" content="JS"> <meta property="article:published_time" content="2019-07-03 00:00:00 +0700"> <meta property="og:url" content="https://tnloc.github.io//2019/JS-Beginners/"> <meta property="og:title" content=" Javascript for Beginner | NguyenTanLoc "> <meta property="og:image" content="https://tnloc.github.io/"> <meta property="og:description" content=" Ghi chú: Javascript for Beginner, JS căn bản "> <meta property="og:site_name" content="Tnloc"> <meta property="og:locale" content="en_US"> <!-- Social: Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="@tnlocx"> <meta name="twitter:title" content=" Javascript for Beginner | NguyenTanLoc "> <meta name="twitter:description" content=" Ghi chú: Javascript for Beginner, JS căn bản "> <meta name="twitter:image:src" content="https://tnloc.github.io/"> <!-- Social: Google+ / Schema.org --> <meta itemprop="name" content=" Javascript for Beginner | NguyenTanLoc "> <meta itemprop="description" content=" Ghi chú: Javascript for Beginner, JS căn bản "> <meta itemprop="image" content="https://tnloc.github.io/"> <!-- Canonical link tag --> <link rel="canonical" href="https://tnloc.github.io//2019/JS-Beginners/"> <link rel="alternate" type="application/rss+xml" title="NguyenTanLoc" href="https://tnloc.github.io//feed.xml"> <!-- rel prev and next --> <link rel="stylesheet" href="https://tnloc.github.io//assets/css/main.css"> </head> <body> <main class="wrapper"> <header class="site-header"> <nav class="nav"> <div class="container"> <h1 class="logo"><a href="https://tnloc.github.io//"><span>NguyenTanLoc</span></a></h1> <ul class="navbar"> <li><a href="https://tnloc.github.io//about">About me</a></li> <li><a href="https://tnloc.github.io//feed.xml" target="_blank">RSS</a></li> </ul> </div> </nav> </header> <article class="post container" itemscope itemtype="http://schema.org/BlogPosting"> <header class="post-header"> <p class="post-meta"><time datetime="2019-07-03T00:00:00+07:00" itemprop="datePublished">Jul 3, 2019</time> &middot; <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Tanloc</span></span></p> <h1 class="post-title" itemprop="name headline">Javascript for Beginner</h1> </header> <div class="post-content" itemprop="articleBody"> <p><a href="https://youtu.be/PkZNo7MFNFg">Video Source</a><br /> <a href="https://scrimba.com/c/cy6KrVTZ">Javascript Playground</a></p> <h1 id="line-comment">Line comment</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// in-line comment</span>
+<span class="cm">/*
+    this is multi-line comment
+*/</span>
+</code></pre></div></div> <h1 id="datatype-and-variable">Datatype and variable:</h1> <p>Data:<br /> unidentified, null, booleean,string, symbol, number, and object variable:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myName</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Loc</span><span class="dl">"</span>
+
+<span class="nx">myName</span> <span class="o">=</span> <span class="mi">21</span>
+
+<span class="kd">let</span> <span class="nx">ourName</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Js learner</span><span class="dl">"</span>
+
+<span class="kd">const</span> <span class="nx">pi</span> <span class="o">=</span> <span class="mf">3.14</span>
+</code></pre></div></div> <p>Biến - khai báo vào gán giá trị:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">a</span><span class="p">;</span>      <span class="c1">//Khai báo nhưng chưa gán giá trị</span>
+<span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>  <span class="c1">//Khai báo và gán giá trị.</span>
+
+<span class="nx">a</span> <span class="o">=</span> <span class="mi">7</span><span class="p">;</span>
+<span class="nx">b</span> <span class="o">=</span> <span class="nx">a</span><span class="p">;</span>
+</code></pre></div></div> <p>Đặt tên biến:<br /> Lưu ý:<br /> - Tên biến phân biệt chữ thường và chữ HOA.</p> <h1 id="cộng---trừ---nhân---chia">Cộng - trừ - nhân - chia</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">*</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div></div> <p>Tăng giảm giá trị:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="nx">a</span><span class="o">++</span><span class="p">;</span> <span class="c1">//tăng lên 1 đơn vị</span>
+<span class="nx">a</span><span class="o">--</span><span class="p">;</span> <span class="c1">//giảm xuống 1 đơn vị</span>
+</code></pre></div></div> <p>Tìm số dư:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">remainder</span><span class="p">;</span>
+<span class="nx">remainder</span> <span class="o">=</span> <span class="mi">11</span> <span class="o">%</span> <span class="mi">3</span><span class="p">;</span> <span class="c1">// 2</span>
+</code></pre></div></div> <p>Tăng chính nó:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="c1">//ta có thể tăng bằng cách:</span>
+<span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="mi">6</span><span class="p">;</span><span class="c1">// -&gt; a = 16</span>
+<span class="c1">//hoặc </span>
+<span class="nx">a</span> <span class="o">+=</span> <span class="mi">6</span><span class="p">;</span> <span class="c1">// -&gt; a = 16</span>
+
+<span class="c1">//-&gt;&gt; Tương tự với các phép toán khác</span>
+</code></pre></div></div> <h1 id="kí-tự-đặc-biệt">Kí tự đặc biệt</h1> <p>Để dùng kí tự đặc biệt phân biệt với code ta dùng dấu <code class="highlighter-rouge">/</code></p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myStr</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">I am a </span><span class="se">\"</span><span class="s2">double quoted</span><span class="se">\"</span><span class="s2"> string inside </span><span class="se">\"</span><span class="s2">double quotes</span><span class="se">\"</span><span class="s2"> </span><span class="dl">"</span><span class="p">;</span>
+    <span class="c1">//Kết quả: "I am a ' double quoted 'string inside' double quotes' "</span>
+<span class="c1">//hoặc</span>
+<span class="kd">var</span> <span class="nx">myStr</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">&lt;a href="http://github.com"&gt;Link &lt;/a&gt;</span><span class="dl">'</span><span class="p">;</span>
+    <span class="c1">//Kết quả: "&lt;a href='http://github.com'&gt;Link &lt;/a&gt;"</span>
+</code></pre></div></div> <table> <thead> <tr> <th>code</th> <th>output</th> </tr> </thead> <tbody> <tr> <td>\’</td> <td>single quote</td> </tr> <tr> <td>\”</td> <td>double quote</td> </tr> <tr> <td>\n</td> <td>backsplash</td> </tr> <tr> <td>\r</td> <td>cariage return</td> </tr> <tr> <td>\t</td> <td>tab</td> </tr> <tr> <td>\b</td> <td>backspace</td> </tr> <tr> <td>\f</td> <td>form feed</td> </tr> </tbody> </table> <h1 id="chuỗi">Chuỗi</h1> <p>Nối 2 chuỗi (string):</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myStr</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Chuỗi 1 </span><span class="dl">"</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">Chuỗi 2</span><span class="dl">"</span><span class="p">;</span>
+    <span class="c1">//Kết quả: "Chuỗi 1 Chuỗi 2"</span>
+
+<span class="kd">var</span> <span class="nx">myName</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Loc</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">Hello</span> <span class="o">=</span>  <span class="dl">"</span><span class="s2">Xin chào! Tên mình là </span><span class="dl">"</span> <span class="o">+</span> <span class="nx">myName</span> <span class="o">+</span><span class="dl">"</span><span class="s2">. Bạn tên gì?</span><span class="dl">"</span><span class="p">;</span>
+    <span class="c1">//Kết quả: "Xin chào! Tên mình là Loc. Bạn tên gì?</span>
+</code></pre></div></div> <p>Đếm độ dài chuỗi:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myName</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Loc</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">myName</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span>
+    <span class="c1">//Kết quả: 3</span>
+</code></pre></div></div> <p>Lấy kí tự của chuỗi thông qua vị trí:<br /> - Lưu ý: Javascript đếm từ 0;</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myName</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Loc</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="c1">//Ví dụ: lấy kí tự đầu của myName</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myname</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+<span class="c1">//Ví dụ: lấy kí tự thứ 2 của myName</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myname</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="c1">//Kết quả: "o"</span>
+<span class="c1">//Ví dụ: lấy kí tự cuối cùng.</span>
+<span class="kd">var</span> <span class="nx">lastchar</span> <span class="o">=</span> <span class="nx">myName</span><span class="p">.[</span><span class="nx">myName</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">1</span><span class="p">];</span>
+</code></pre></div></div> <p>Thay đổi chuỗi:<br /> - Lưu ý:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//ví dụ 1: Không được</span>
+<span class="kd">var</span> <span class="nx">myStr</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Jello world!</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">myStr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">H</span><span class="dl">"</span><span class="p">;</span>
+    <span class="c1">//-&gt;&gt; Lỗi</span>
+<span class="c1">//ví dụ 2:</span>
+<span class="kd">var</span> <span class="nx">myStr</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Jello world!</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">myStr</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Hello world</span><span class="dl">"</span><span class="p">;</span>
+    <span class="c1">//-&gt;&gt; Không lỗi</span>
+</code></pre></div></div> <h1 id="function">Function</h1> <p>Function tổng quát:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">t</span><span class="err">ê</span><span class="nx">n_function</span><span class="p">(</span><span class="nx">bi</span><span class="err">ế</span><span class="nx">n1</span><span class="p">,</span> <span class="nx">bi</span><span class="err">ế</span><span class="nx">n2</span><span class="p">,</span> <span class="nx">bi</span><span class="err">ế</span><span class="nx">n_</span><span class="p">...,</span> <span class="nx">bi</span><span class="err">ế</span><span class="nx">n_n</span><span class="p">){</span>
+    <span class="c1">// Code xử lý</span>
+    <span class="k">return</span> <span class="c1">//kết quả, biến...</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>Anonymous function:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div> <p>Arrow function:<br /> (Hàm rút gọn)</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div> <h1 id="array">Array</h1> <p>Mảng 1 chiều:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[];</span>
+<span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="dl">"</span><span class="s2">dog</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">cat</span><span class="dl">"</span><span class="p">];</span>
+</code></pre></div></div> <p>Mảng 2 chiều:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="dl">"</span><span class="s2">dog</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">cat</span><span class="dl">"</span><span class="p">]];</span>
+</code></pre></div></div> <p>Truy xuất dữ liệu:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">t</span><span class="err">ê</span><span class="nx">n_m</span><span class="err">ả</span><span class="nx">ng</span><span class="p">[</span><span class="nx">v</span><span class="err">ị</span><span class="nx">_tr</span><span class="err">í</span><span class="p">];</span>
+</code></pre></div></div> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="dl">"</span><span class="s2">dog</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">cat</span><span class="dl">"</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="c1">//Kết quả: 2</span>
+<span class="kd">var</span> <span class="nx">arr2</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],[</span><span class="dl">"</span><span class="s2">dog</span><span class="dl">"</span><span class="p">,</span><span class="dl">"</span><span class="s2">cat</span><span class="dl">"</span><span class="p">]];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]);</span>
+    <span class="c1">//Kết quả: cat</span>
+</code></pre></div></div> <p>Thêm giá trị vào cuối mảng:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[[</span><span class="dl">"</span><span class="s2">Dog</span><span class="dl">"</span><span class="p">,</span><span class="mi">12</span><span class="p">],[</span><span class="dl">"</span><span class="s2">Cat</span><span class="dl">"</span><span class="p">,</span><span class="mi">19</span><span class="p">]];</span>
+<span class="nx">arr</span><span class="p">.</span><span class="nx">push</span><span class="p">([</span><span class="dl">"</span><span class="s2">Fish</span><span class="dl">"</span><span class="p">,</span><span class="mi">21</span><span class="p">]);</span>
+    <span class="c1">//Kết quả: [["Dog",12],["Cat",19],["Fish",21]]</span>
+</code></pre></div></div> <p>Pop - Lấy (xóa) giá trị cuối ra khỏi mảng:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[[</span><span class="dl">"</span><span class="s2">Dog</span><span class="dl">"</span><span class="p">,</span><span class="mi">12</span><span class="p">],[</span><span class="dl">"</span><span class="s2">Cat</span><span class="dl">"</span><span class="p">,</span><span class="mi">19</span><span class="p">],[</span><span class="dl">"</span><span class="s2">Fish</span><span class="dl">"</span><span class="p">,</span><span class="mi">21</span><span class="p">]];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">.</span><span class="nx">pop</span><span class="p">());</span>
+    <span class="c1">//Kết quả: [["Dog",12],["Cat",19]]</span>
+</code></pre></div></div> <p>Shift - Lấy (xóa) giá trị đầu ra khỏi mảng:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">arr</span> <span class="o">=</span> <span class="p">[[</span><span class="dl">"</span><span class="s2">Dog</span><span class="dl">"</span><span class="p">,</span><span class="mi">12</span><span class="p">],[</span><span class="dl">"</span><span class="s2">Cat</span><span class="dl">"</span><span class="p">,</span><span class="mi">19</span><span class="p">],[</span><span class="dl">"</span><span class="s2">Fish</span><span class="dl">"</span><span class="p">,</span><span class="mi">21</span><span class="p">]];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">arr</span><span class="p">.</span><span class="nx">shift</span><span class="p">());</span>
+    <span class="c1">//Kết quả: [["Cat",19],["Fish",21]]</span>
+
+<span class="nx">arr</span><span class="p">.</span><span class="nx">unshift</span><span class="p">([</span><span class="dl">"</span><span class="s2">Bird</span><span class="dl">"</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+    <span class="c1">//Kết quả: [["Bird",3],["Cat",19],["Fish",21]]</span>
+</code></pre></div></div> <h1 id="scope---global-variale-local-variable">Scope - Global variale, Local variable</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">outerWear</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">T-shirt</span><span class="dl">"</span><span class="p">;</span>
+
+<span class="kd">function</span> <span class="nx">myOutfit</span><span class="p">(){</span>
+    <span class="kd">var</span> <span class="nx">outerWear</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Sweater</span><span class="dl">"</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">outerWear</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myOutfit</span><span class="p">());</span>
+<span class="c1">// &gt;Sweater</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">outerWear</span><span class="p">);</span>
+<span class="c1">// &gt;T-shirt</span>
+</code></pre></div></div> <h1 id="function-không-trả-về-dữ-liệu">Function không trả về dữ liệu</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kd">function</span> <span class="nx">addThree</span><span class="p">(){</span>
+    <span class="nx">sum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span><span class="mi">3</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">addFive</span><span class="p">(){</span>
+    <span class="nx">sum</span> <span class="o">=</span> <span class="nx">sum</span> <span class="o">+</span><span class="mi">5</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">addFive</span><span class="p">();</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">sum</span><span class="p">);</span>
+<span class="c1">// Bây giờ sum = 5</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">addThree</span><span class="p">());</span>
+<span class="c1">// trả về null vì function không trả về gì cả undefined</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">sum</span><span class="p">);</span>
+<span class="c1">// Bây giờ sum = 8 vì dòng lệnh trước nó gọi function addThree.</span>
+<span class="c1">//Tuy không trả về giá trị nào nhưng nó đã thay đổi giá trị của sum</span>
+</code></pre></div></div> <h1 id="function-có-trả-về-dữ-liệu">Function có trả về dữ liệu</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">changed</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span>
+<span class="kd">function</span> <span class="nx">change</span><span class="p">(</span><span class="nx">num</span><span class="p">){</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">num</span><span class="o">+</span><span class="mi">5</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">changed</span> <span class="o">=</span> <span class="nx">change</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+
+<span class="kd">var</span> <span class="nx">processed</span> <span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="kd">function</span> <span class="nx">processArg</span><span class="p">(</span><span class="nx">num</span><span class="p">){</span>
+    <span class="k">return</span>  <span class="p">(</span><span class="nx">num</span><span class="o">+</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="mi">5</span><span class="p">;</span>    
+<span class="p">}</span>
+
+<span class="nx">processed</span> <span class="o">=</span> <span class="nx">processArg</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">changed</span><span class="p">);</span>
+<span class="c1">//Kết quả: 5</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">processed</span><span class="p">);</span>
+<span class="c1">//Kết quả: 2</span>
+</code></pre></div></div> <h1 id="next-in-line">Next in line</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">nextInLine</span><span class="p">(</span><span class="nx">arr</span><span class="p">,</span><span class="nx">item</span><span class="p">){</span>
+    <span class="nx">arr</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">item</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">item</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">testArr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">];</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Before: </span><span class="dl">"</span><span class="o">+</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">testArr</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">nextInLine</span><span class="p">(</span><span class="nx">testArr</span><span class="p">,</span><span class="mi">6</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">After: </span><span class="dl">"</span><span class="o">+</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">(</span><span class="nx">testArr</span><span class="p">));</span>
+</code></pre></div></div> <h1 id="giá-trị-boolean">Giá trị Boolean</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1">// Bổ sung ví dụ sau</span>
+</code></pre></div></div> <h1 id="so-sánh---equality-và-strict-equality">So sánh - Equality và Strict Equality</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">test</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">val</span> <span class="o">==</span> <span class="mi">7</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="dl">"</span><span class="s2">Equal</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="dl">"</span><span class="s2">Not Equal</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">testStrict</span><span class="p">(</span><span class="mi">7</span><span class="p">));</span>
+<span class="c1">// Equal</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">testStrict</span><span class="p">(</span><span class="dl">"</span><span class="s2">7</span><span class="dl">"</span><span class="p">));</span>
+<span class="c1">// Equal</span>
+</code></pre></div></div> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">testStrict</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">val</span> <span class="o">===</span> <span class="mi">7</span> <span class="p">){</span>
+        <span class="k">return</span> <span class="dl">"</span><span class="s2">Equal</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="dl">"</span><span class="s2">Not Equal</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">testStrict</span><span class="p">(</span><span class="mi">7</span><span class="p">));</span>
+<span class="c1">// Equal</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">testStrict</span><span class="p">(</span><span class="dl">"</span><span class="s2">7</span><span class="dl">"</span><span class="p">));</span>
+<span class="c1">// Not Equal</span>
+</code></pre></div></div> <p>Tương tự, để so sánh không bằng, ta dùng <strong><em>!===</em></strong> hoặc <strong><em>!==</em></strong><br /> Ngoài ra còn có các toán tử khác như:</p> <table> <thead> <tr> <th>Kí hiệu</th> <th>ý nghĩa</th> </tr> </thead> <tbody> <tr> <td>&lt;</td> <td>bé hơn</td> </tr> <tr> <td>&gt;</td> <td>lớn hơn</td> </tr> <tr> <td>&lt;= , &lt;==</td> <td>bé hơn hoặc bằng</td> </tr> <tr> <td>&gt;= , &gt;==</td> <td>lớn hơn hoặc bằng</td> </tr> <tr> <td>!</td> <td>phủ định</td> </tr> <tr> <td>&amp;&amp;</td> <td>và</td> </tr> <tr> <td>||</td> <td>hoặc</td> </tr> </tbody> </table> <h1 id="mệnh-đề-if---else---else-if">Mệnh đề If - Else - Else if</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">orderBySize</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">val</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">){</span>
+        <span class="k">return</span> <span class="dl">"</span><span class="s2">Nhỏ</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">val</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">){</span>
+        <span class="k">return</span> <span class="dl">"</span><span class="s2">Vừa</span><span class="dl">"</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">val</span> <span class="o">&lt;=</span> <span class="mi">10</span><span class="p">)</span>
+        <span class="k">return</span> <span class="dl">"</span><span class="s2">Lớn</span><span class="dl">"</span><span class="p">;</span>
+    <span class="k">else</span> <span class="k">return</span> <span class="dl">"</span><span class="s2">Siêu lớn</span><span class="dl">"</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">orderBySize</span><span class="p">());</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">orderBySize</span><span class="p">(</span><span class="mi">15</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">orderBySize</span><span class="p">(</span><span class="mi">9</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">orderBySize</span><span class="p">(</span><span class="mi">4</span><span class="p">));</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">orderBySize</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span>
+<span class="c1">// Siêu lớn</span>
+<span class="c1">// Siêu lớn</span>
+<span class="c1">// Lớn</span>
+<span class="c1">// Vừa</span>
+<span class="c1">// Nhỏ</span>
+</code></pre></div></div> <h1 id="switch-case">Switch case</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">caseInSwitch</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">answer</span> <span class="o">=</span><span class="dl">""</span><span class="p">;</span>
+    <span class="k">switch</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+        <span class="k">case</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="nx">answer</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">alpha</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="nx">answer</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">beta</span><span class="dl">"</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">3</span><span class="p">:</span>
+            <span class="nx">answer</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">gamma</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="mi">4</span><span class="p">:</span>
+            <span class="nx">answer</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">delta</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">"</span><span class="s2">X</span><span class="dl">"</span><span class="p">:</span>
+            <span class="k">return</span> <span class="dl">"</span><span class="s2">lecture X</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">"</span><span class="s2">Y</span><span class="dl">"</span><span class="p">:</span>
+            <span class="k">return</span> <span class="dl">"</span><span class="s2">lecture Y</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">"</span><span class="s2">Z</span><span class="dl">"</span><span class="p">:</span>
+            <span class="k">return</span> <span class="dl">"</span><span class="s2">lecture Z</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="nl">default</span><span class="p">:</span>
+            <span class="nx">answer</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">hmmmm...</span><span class="dl">"</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">answer</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">caseInSwitch</span><span class="p">(</span><span class="mi">3</span><span class="p">));</span>
+</code></pre></div></div> <p>Lưu ý:</p> <ul> <li>Nếu case không có <strong><em>break;</em></strong> thì khi hết case được chọn, chương trình sẽ tự động chuyển qua case kế tiếp, đến hết các case còn lại hoặc khi nào gặp <strong><em>break</em></strong>.</li> <li>Trường hợp <strong><em>default</em></strong> là khi không có case nào phù hợp thì <strong><em>default</em></strong> sẽ chạy.</li> </ul> <h1 id="object">Object</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myDog</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Lulu</span><span class="dl">"</span><span class="p">,</span> <span class="c1">//dạng chuỗi</span>
+    <span class="dl">"</span><span class="s2">legs</span><span class="dl">"</span> <span class="p">:</span> <span class="mi">4</span><span class="p">,</span> <span class="c1">//dạng số</span>
+    <span class="dl">"</span><span class="s2">tails</span><span class="dl">"</span> <span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">friends</span><span class="dl">"</span><span class="p">:</span> <span class="p">[</span><span class="dl">"</span><span class="s2">everything!</span><span class="dl">"</span><span class="p">]</span> <span class="c1">//hoặc dạng mảng</span>
+<span class="p">}</span>
+</code></pre></div></div> <p>Truy cập các Properties (thuộc tính) của object:</p> <ul> <li>Dot notation - dùng dấu chấm: <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">myDog</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span> <span class="c1">//Lulu</span>
+</code></pre></div> </div> </li> <li>Bracket notation - dùng dấu ngoặc vuông: <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">myDog</span><span class="p">[</span><span class="dl">'</span><span class="s1">name</span><span class="dl">'</span><span class="p">];</span> <span class="c1">//Lulu</span>
+<span class="kd">var</span> <span class="nx">legs</span> <span class="o">=</span> <span class="nx">myDog</span><span class="p">[</span><span class="dl">"</span><span class="s2">leg</span><span class="dl">"</span><span class="p">];</span> <span class="c1">//4</span>
+</code></pre></div> </div> <p>Cập nhật các giá trị của Object:</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">myDog</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Happy Lulu</span><span class="dl">"</span><span class="p">;</span>
+<span class="c1">//Happy Lulu</span>
+</code></pre></div> </div> <p>Thêm một property (thuộc tính) vào Object:<br /> ```js myDog[‘bark’] = ‘woof!’;</p> </li> </ul> <p>// Bây giờ Object myDog sẽ là: var myDog = { “name” : “Lulu”,<br /> “legs” : 4,<br /> “tails” : 1,<br /> “friends”: [“everything!”], “bark” : “woof!”<br /> }</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+Xóa một thuộc tính khỏi Object:
+```js
+delete myDog.bark;
+
+//Bấy giờ Object myDog sẽ là:
+var myDog = {
+    "name" : "Lulu",  
+    "legs" : 4,  
+    "tails" : 1,  
+    "friends": ["everything!"],
+    "bark" : "woof!"  
+}
+</code></pre></div></div> <p>Để kiểm tra Object có property nào đó hay không, ta dùng <strong><em>.hasOwnProperty(</em></strong> tên thuộc tính <strong><em>)</em></strong> .<br /> Giá trị trả về sẽ là <strong><em>True</em></strong> hoặc <strong><em>False</em></strong> .</p> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myDog</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="dl">"</span><span class="s2">name</span><span class="dl">"</span><span class="p">));</span>
+<span class="c1">// True</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">myDog</span><span class="p">.</span><span class="nx">hasOwnProperty</span><span class="p">(</span><span class="dl">"</span><span class="s2">wings</span><span class="dl">"</span><span class="p">));</span>
+<span class="c1">// False</span>
+</code></pre></div></div> <h1 id="nested-object">Nested Object</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myStorage</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="dl">"</span><span class="s2">car</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span>
+        <span class="dl">"</span><span class="s2">inside</span><span class="dl">"</span><span class="p">:{</span>
+            <span class="dl">"</span><span class="s2">glove box</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">maps</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">passenger seat</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">crumbs</span><span class="dl">"</span>
+        <span class="p">},</span>
+        <span class="dl">"</span><span class="s2">outside</span><span class="dl">"</span><span class="p">:{</span>
+            <span class="dl">"</span><span class="s2">trunk</span><span class="dl">"</span><span class="p">:</span> <span class="dl">"</span><span class="s2">jack</span><span class="dl">"</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">};</span>
+<span class="kd">var</span> <span class="nx">gloveBoxContents</span> <span class="o">=</span> <span class="nx">myStorage</span><span class="p">.</span><span class="nx">car</span><span class="p">.</span><span class="nx">inside</span><span class="p">[</span><span class="dl">"</span><span class="s2">glove box</span><span class="dl">"</span><span class="p">];</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">gloveBoxContents</span><span class="p">);</span>
+<span class="c1">// maps</span>
+<span class="c1">// complex object</span>
+</code></pre></div></div> <h1 id="nested-array">Nested Array</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myPlants</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">{</span>
+        <span class="na">type</span><span class="p">:</span> <span class="dl">"</span><span class="s2">flower</span><span class="dl">"</span><span class="p">,</span>
+        <span class="na">list</span><span class="p">:</span> <span class="p">[</span>
+            <span class="dl">"</span><span class="s2">rose</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">tulip</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">dandelion</span><span class="dl">"</span>
+        <span class="p">]</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+        <span class="na">type</span><span class="p">:</span> <span class="dl">"</span><span class="s2">trees</span><span class="dl">"</span><span class="p">,</span>
+        <span class="na">list</span><span class="p">:</span> <span class="p">[</span>
+            <span class="dl">"</span><span class="s2">fir</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">pine</span><span class="dl">"</span><span class="p">,</span>
+            <span class="dl">"</span><span class="s2">birch</span><span class="dl">"</span>
+        <span class="p">]</span>
+    <span class="p">}</span>
+<span class="p">];</span>
+
+<span class="kd">var</span> <span class="nx">secondTree</span> <span class="o">=</span> <span class="nx">myPlants</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">list</span><span class="p">[</span><span class="mi">1</span><span class="p">];</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">secondTree</span><span class="p">);</span>
+<span class="c1">// pine;</span>
+</code></pre></div></div> <h1 id="vòng-lặp-for">Vòng lặp For</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div> <h1 id="vòng-lặp-while">Vòng lặp While</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div> <h1 id="vòng-lặp-do-while">Vòng lặp Do While</h1> <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+</code></pre></div></div> </div> </article> <footer class="site-footer"> <div class="container"> <small class="block">&copy; 2019 Tnloc &middot; &lt;/&gt; Powered by <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/heiswayi/thinkspace">Thinkspace theme</a></small> </div> </footer> </main> <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-135968997-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> </body> </html>
