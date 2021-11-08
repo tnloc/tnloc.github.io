@@ -69,6 +69,20 @@
         $(".body-overlay").removeClass("opened");
     });
 
+    ////////////////////////////////////////////////////
+    // 03.1. Card Bar Js
+    $(".mobile-menu-toggle").on("click", function() {
+        $(".card_extra__info").addClass("info-opened");
+        $(".card_body-overlay").addClass("opened");
+    });
+    $(".card_extra__info-close-btn").on("click", function() {
+        $(".card_extra__info").removeClass("info-opened");
+        $(".card_body-overlay").removeClass("opened");
+    });
+    $(".card_body-overlay").on("click", function() {
+        $(".card_extra__info").removeClass("info-opened");
+        $(".card_body-overlay").removeClass("opened");
+    });
 
     ////////////////////////////////////////////////////
     // 04. Sticky Header Js
@@ -145,7 +159,7 @@
         });
         BasicSlider.slick({
             autoplay: true,
-            autoplaySpeed: 8000,
+            autoplaySpeed: 3000,
             dots: true,
             fade: true,
             arrows: false,
