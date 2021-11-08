@@ -482,8 +482,8 @@ p {
     height: 50px;
     line-height: 46px;
     padding: 0 42px;
-    border: 2px solid #ebebeb;
-    color: #323232;
+    border: 2px solid #848b8a;
+    color: #848b8a;
     background: transparent;
     z-index: 1;
     font-size: 12px;
@@ -518,7 +518,7 @@ p {
 }
 
 .os-btn-2 {
-    border-color: #323232;
+    border-color: #dee2e6;
 }
 
 .os-btn-3 {
@@ -2770,8 +2770,9 @@ p {
 .product__content h4 {
     font-size: 14px;
     font-weight: 400;
-    color: #444;
     margin-bottom: 3px;
+    color: #a77e17;
+
 }
 
 .product__content h4 a:hover {
@@ -4647,7 +4648,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .contact__input label {
-    color: #333333;
+    color: #a77e17;
     display: inline-block;
     margin-bottom: 10px;
 }
@@ -5053,3 +5054,122 @@ html .ui-button.ui-state-disabled:active {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* Cart drawers */
+.drawer-header {
+    padding-top: 30px ;
+    padding-left: 30px ;
+    padding-right: 30px ;
+}
+
+.drawer-body {
+    padding: 12px;
+}
+
+.drawer .drawer-content .drawer-header .close-btn {
+    color: #323232;
+    font-size: 18px;
+}
+
+.drawer-footer .checkout-link a {
+    margin-bottom: 20px;
+    /*width: 100%;*/
+}
+
+.drawer-body:hover .mini-cart {
+    visibility: visible;
+    opacity: 1;
+}
+
+.drawer-body:hover .extra-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 575px) {
+    .drawer-body .mini-cart {
+
+    }
+}
+
+.drawer-body .mini-cart .mini-cart-list {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .drawer-body .mini-cart .mini-cart-list {
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .drawer-body .mini-cart .mini-cart-list {
+    }
+}
+
+@media (max-width: 575px) {
+    .drawer-body .mini-cart .mini-cart-list {
+    }
+}
+
+.drawer-body .mini-cart .mini-cart-list li {
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-img {
+    margin-right: 15px;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-img a img {
+    width: 75px;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-content {
+    max-width: calc(100% - 90px - 9px);
+    margin-top: 5px;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-content h5 {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-content h5 a {
+    color: #444;
+}
+
+.drawer-body .mini-cart .mini-cart-list li .cart-content h5 a:hover {
+    color: #a77e17;
+}
+
+.drawer-body .mini-cart .total-price {
+    padding-top: 22px;
+    border-top: 1px solid #dee2e6;
+}
+
+.drawer-body .mini-cart .total-price span {
+    font-weight: 500;
+    color: #201f1f;
+}
+
+.drawer-body .mini-cart .checkout-link a {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.drawer-body .mini-cart .checkout-link a:last-child {
+    margin-bottom: 0;
+}
+
+.mini-cart-subtotal {
+    color: #a77e17 !important;
+}
+
+
+.mini-cart-price {
+    color: #a77e17 !important;
+}
